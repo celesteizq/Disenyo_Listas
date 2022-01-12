@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+body {
+	background-color: lightgray;
+	font-family: sans-serif;
+}
+
+.one {
+	list-style-type: none;
+	text-align: center;
+	color: #5E0272;
+	font-weight: bold;
+}
+
+.one li {
+	border: 0.3em dashed #954A95;
+	background-color: #5ace77;
+	width: 8em;
+	height: 0.9em;
+	padding: 0.5em;
+	margin: 0.3em;
+	float: left;
+}
+
+li.uno {
+	border: 0.3em dashed #954A95;
+	background-color: #5ace77;
+	width: 13em;
+}
+
+.two {
+	list-style: none;
+	text-align: center;
+	float: right;
+	margin-right: 25em;
+}
+
+.two :hover {
+	background-color: lightgrey;
+	border-left: 0.1em solid black;
+	border-bottom: 0.1em solid white;
+	border-right: 0.1em solid white;
+	border-top: 0.1em solid black;
+}
+
+.two li {
+	border-right: 0.18em solid black;
+	border-bottom: 0.18em solid black;
+	background-color: white;
+	width: 6em;
+	height: 1em;
+	display: inline;
+	padding: 0.5em;
+	margin: 0.3em;
+}
+
+li.dos {
+	width: 13em;
+	height: 1em;
+}
+
+.three {
+	list-style-type: none;
+	border: 0.1em black solid;
+	width: 10em;
+	padding-left: 0.1em;
+	padding-right: 2.4em;
+}
+
+.three li {
+	text-align: center;
+	width: 10em;
+	height: 1.5em;
+	background-color: white;
+	border: 0.1em black solid;
+	margin: 0.9em;
+	padding: 0.2em;
+}
+
+li.tres {
+	height: 2.5em;
+}
+
+.four {
+	list-style-type: none;
+	text-align: center;
+	float: right;
+	font-weight: bold;
+	margin-top: 0.1em;
+	margin-right: 9em;
+}
+
+.four li {
+	background-color: white;
+	color: #3366CC;
+	width: 10em;
+	height: 1.5em;
+	float: left;
+	margin: 0.1em;
+	padding: 0.2em;
+	color: #3366CC;
+}
+
+li.cuatro {
+	width: 13em;
+}
+
+li.azul {
+	background-color: #3366CC;
+	color: white;
+	width: 10.5em;
+}
+
+.five {
+	list-style-type: none;
+}
+
+.five li {
+	float: left;
+	padding-right: 1.5em;
+}
+
+.six {
+	list-style-type: none;
+	text-align: center;
+}
+
+.six li {
+	display: inline;
+	background-color: white;
+	border: 0.13em black solid;
+	border-radius: 0.3em;
+	margin-right: 0.32em;
+	font-size: 180%;
+	line-height: 150%;
+	padding: 0.5em;
+	margin-left: 1.3em;
+}
+
+.fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	border-top: 0.1em solid black;
+	background-color: white;
+	padding-bottom: 1em;
+	width: 120em;
+	height: 1em;
+	text-align: center;
+}
+
+.pie {
+	position: relative;
+	display: inline-block;
+	font-size: smaller;
+}
+
+.italic {
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('fonts/icomoon.eot?elc37f');
+	src: url('fonts/icomoon.eot?elc37f#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?elc37f') format('truetype'),
+		url('fonts/icomoon.woff?elc37f') format('woff'),
+		url('fonts/icomoon.svg?elc37f#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+	content: "\e900";
+}
+
+.icon-pencil:before {
+	content: "\e905";
+}
+
+.icon-file-text:before {
+	content: "\e922";
+}
+
+.icon-search:before {
+	content: "\e986";
+}
+
+.icon-switch:before {
+	content: "\e9b6";
+}
+
+.icon-plus:before {
+	content: "\ea0a";
+}
+
+.icon-minus:before {
+	content: "\ea0b";
+}
